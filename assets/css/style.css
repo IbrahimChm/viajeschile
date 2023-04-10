@@ -1,0 +1,24 @@
+/* Estilos para el contenido de la columna */
+.col-md-3 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  /* Estilos para el logo de la barra de navegación */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  body {
+    background-color: #8ebddd;
+  }
+  .imagen {
+    width: 200px;
+    height: 100px;
+  }
+ 
+  Esto es para proporcionar las cards 
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
