@@ -1,24 +1,140 @@
 /* Estilos para el contenido de la columna */
 .col-md-3 {
-    border: 1px solid black;
-    height: 200px;
+  border: 1px solid black;
+  height: 200px;
+}
+
+/* Estilos para el logo de la barra de navegación */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+body {
+  background-color: #8ebddd;
+}
+
+/* Estilos para las imágenes dentro de las cards */
+.imagen {
+  width: 200px;
+  height: 100px; /* Tamaño de la imagen */
+}
+
+/* Estilos para proporcionar las cards */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background: rgb(122, 158, 199) !important;
+  }
+  .container {
+    text-align: center;
+  }
+  .carousel {
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
   
-  /* Estilos para el logo de la barra de navegación */
-  .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
+  .carousel-item {
+    margin-right: 15px;
+  }
+  
+  .carousel-item:last-child {
+    margin-right: 0;
+  }
+  /* Tamaño de los indicadores del carrusel */
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .carousel-indicators .active {
+    background-color: #111010;
+  }
+  
+  /* Tamaño de los controles del carrusel */
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/chevron-left.png');
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/chevron-right.png');
+  }
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+  }
+  .text-justify {
+    text-align: justify;
   }
   body {
-    background-color: #8ebddd;
+    margin: 20px;
   }
-  .imagen {
-    width: 200px;
-    height: 100px;
+  .row.text-center > div {
+    background-color: #5ab9c5;
+    padding: 20px;
   }
- 
-  Esto es para proporcionar las cards 
-  .card-img-top {
-    height: 200px;
-    object-fit: cover;
+  contact-form {
+    margin: 50px auto;
+    width: 50%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #3e8e41;
   }
